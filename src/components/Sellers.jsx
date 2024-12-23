@@ -17,7 +17,7 @@ const Sellers = () => {
           <MdOutlineNavigateNext className="w-6 h-6 text-primary-dark-blue ml-2" />
         </Button>
       </div>
-      <div className="flex items-center justify-center mt-4 overflow-x-scroll scroll-smooth">
+      <div className="flex items-center justify-center mt-4 overflow-x-scroll scroll-smooth seller-scroll">
         <img src={assets.Seller1} alt="Seller1" className="object-cover w-60" />
         <img src={assets.Seller2} alt="Seller2" className="object-cover w-60" />
         <img src={assets.Seller3} alt="Seller3" className="object-cover w-60" />
