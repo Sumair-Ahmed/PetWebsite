@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Button from "./Button";
 import { IoPlayCircleOutline } from "react-icons/io5";
+import { assets } from "../assets/assets";
 const HomeHeader = () => {
   return (
     <>
@@ -56,7 +57,7 @@ const HomeHeader = () => {
 
       {/* Banner Image */}
       <img
-        src="src/assets/Banners.png"
+        src={assets.Banners}
         alt="Banner"
         className="hidden lg:block w-full relative overflow-hidden h-auto"
       />

@@ -5,6 +5,7 @@ import { IoMdMenu } from "react-icons/io";
 import Button from "./Button";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import { assets } from "../assets/assets";
 
 const Header = () => {
   return (
@@ -29,7 +30,7 @@ const Header = () => {
 
           {/* Animated Logo */}
           <motion.img
-            src="src/assets/Monito.png"
+            src={assets.Monito}
             alt="Logo"
             className="lg:w-auto w-[30%]"
             initial={{ opacity: 0, x: -50 }}

@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "./Button";
 import { FaFacebook, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
+import { assets } from "../assets/assets";
 const Footer = () => {
   return (
     <div className="bg-[#FCEED5] rounded-tl-3xl rounded-tr-3xl lg:pt-20 lg:pl-28 lg:pr-28 lg:pb-10 pl-10 pr-10 pt-10 pb-4 mt-20">
@@ -52,7 +53,7 @@ const Footer = () => {
       <hr className="outline-none border-spacing-0.5 border-gray-300 lg:mt-10 mt-4" />
       <div className="flex lg:flex-row flex-col justify-between lg:mt-10 mt-4 lg:items-end items-center">
         <p className="text-gray-400">@ 2022 Monito. All rights reserved.</p>
-        <img src="src/assets/Monito.png" alt="Logo" className="object-cover" />
+        <img src={assets.Monito} alt="Logo" className="object-cover" />
         <div className="flex gap-4">
           <p className="text-gray-600">Terms of Service</p>
           <p className="text-gray-600">Privacy Policy</p>

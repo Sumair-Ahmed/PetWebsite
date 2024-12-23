@@ -1,17 +1,18 @@
 import React from "react";
 import Button from "./Button";
 import { IoPlayCircleOutline } from "react-icons/io5";
+import { assets } from "../assets/assets";
 const Banner = () => {
   return (
     <>
       <div className="relative ml-20 mr-20 overflow-hidden mb-10">
         <img
-          src="src/assets/BannerDown.png"
+          src={assets.BannerDown}
           alt="BannerDown"
           className="hidden lg:block overflow-hidden object-cover w-full"
         />
         <img
-          src="src/assets/BannerImage.png"
+          src={assets.BannerImage}
           alt="BannerImage"
           className="hidden lg:block absolute left-0 bottom-0"
         />
